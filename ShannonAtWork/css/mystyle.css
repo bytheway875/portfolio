@@ -1,0 +1,269 @@
+@import url(http://fonts.googleapis.com/css?family=Parisienne|Rye);
+
+*{
+  padding-top:0;
+}
+/*.container {
+  min-width:960px;
+}*/
+/*b{
+  font-family: 'Helvetica';
+}*/
+
+h1, 
+h2 {
+  padding-left: 2%;
+}
+
+.footer h2{
+  font-family:'Parisienne', sans-serif;
+  padding-left:2%;
+  padding-top:10px;
+}
+
+h3 {
+  font-family: 'Parisienne', sans-serif;
+  font-size:1.5em;
+  padding-top:0px;
+  -webkit-margin-before:0px;
+  -moz-margin-before:0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+#nav-container{
+  min-width:1240px;
+}
+#nav {
+  margin-left:0;
+  /*padding-top:-1px;*/
+  margin-top:-15px;
+  /*width:80px;*/
+  position:fixed;
+  background-color:#bd5d1d;
+  background-image: url('../img/nav-texture1.jpg') !important;
+  background-size:cover;
+  width:100%;
+  height:90px;
+  line-height: 80px;
+  font-style:'Rye';
+  box-shadow: 1px 0px 10px 3px;
+  /*border-bottom-right-radius:8px; 
+  border-bottom-left-radius:8px;*/
+  @include transition(box-shadow 1s ease);
+}
+#nav-container a {
+  font-weight:bold;
+  width:12%;
+  float:left;
+  color: #e28344;
+  line-height: 80px;
+  font-style: 'Rye',sans-serif;
+  text-align:center;
+  padding-bottom:7px;
+}
+
+#nav a:hover {
+  color: #F3D58F;
+  background-color: #974a17;
+  background-image: url('../img/nav-texture1.jpg') !important;
+  /*border-top:#faf3bc;*/
+  /*border-bottom: 10px solid #F3D58F;*/
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius:5px;
+  box-shadow: 0px 0px 40px 2px #000000;
+  @include transition(box-shadow 1s ease); /* fade in box shadow */
+}
+
+
+.overview {
+	 background: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  	padding-top:100px;
+  	height:500px;
+  	background-color: #fbc15d;
+  	padding-bottom:10px;
+  	margin:0;
+}
+
+.purple-border {
+  /*height: 1px;*/
+  background-color:#220e10;
+  box-shadow: 1px 0px 10px 3px;
+
+}
+
+.content {
+  background-color: #220e10;
+  background-image: url('../img/wood.jpg');
+  background-attachment:fixed;
+  
+}
+body {
+  background-color: #220e10;
+  padding-bottom:0px;
+
+}
+
+
+h2{
+	font-family:'Rye', sans-serif;
+	font-size: 4em;
+	padding-top:90px;
+  color:#F3D58F;
+  padding-bottom:20px;
+
+}
+
+/*.work, .about
+ {
+	background-color: #3C697C;
+  display:inline-block;
+  min-height:800px;
+}*/
+
+
+.footer {
+  background-color: #220e10;
+  height:400px;
+  margin-top:0;
+  padding-top:0;
+}
+
+
+
+.work,
+.about,
+.resume,
+.blog {
+	/*background-color:#7CA096;*/
+  min-height:800px;
+}
+
+
+
+#nav #logo {
+  color:#F3D58F !important;
+  padding-right: 2%;
+  font-size:2em;
+  min-width:400px;
+  width:25%;
+  line-height:80px;
+  padding-left:.5%;
+  font-family: 'Rye', sans-serif;
+  text-align:left;
+}
+
+#nav h1 {
+  font-size: 1.25em;
+
+}
+
+
+#nav a {
+  font-family: 'Parisienne', sans-serif;
+  font-size:1.5em;
+}
+
+#nav #logo a {
+  text-align:left;
+}
+a:hover#logo{
+  background-color: transparent;
+  border-bottom:transparent;
+  box-shadow: 0px 0px 0px 0px;
+  background-image: none !important;
+}
+
+.r1 {
+  background-color:red;
+}
+
+
+.about_holder,
+.project_holder,
+.resume_holder,
+.blog_holder{
+  background-image: url('../img/back-2.jpg');
+  padding:1.5%;
+  border-radius:5px;
+  /*min-width:960px;*/
+  box-shadow: 2px 2px 20px 2px;
+  
+}
+
+.about,
+.blog,
+.resume,
+.work {
+  padding-bottom: 90px;
+}
+.resume{
+  min-width:960px;
+}
+
+.resume_holder{
+  display:inline-block;
+  /*min-width:960px;*/
+}
+
+.project_pic{
+  display:inline-block;
+  float:right;
+  /*max-width:100%;
+  height:auto;*/
+  margin:auto;
+  
+}
+
+.project_pic img {
+  max-width:100%;
+  height:auto;
+  border:solid 4px #F3D58F;
+  box-shadow: 5px 5px 25px 3px;
+  margin-right: 2%;
+}
+
+div#social_buttons {
+  margin-left: 40%;
+  padding-top:20px;
+}
+
+.edu, .workexp {
+  background-image: url('../img/back-2.jpg');
+  margin:0 auto;
+  width:300px;
+  text-align:center;
+  padding:20px;
+  border-radius:5px;
+}
+
+h3.edu, h3.workexp {
+  font-family: 'Rye', sans-serif;
+}
+
+.edu{
+  margin-left: 30%;
+}
+
+.workexp {
+  margin-left:35%;
+}
+
+#email {
+  margin-left:41.75%;
+  margin-top:20px;
+}
+
+
+/*Colors:
+
+Off-White: #F3D58F
+Purple:*/
